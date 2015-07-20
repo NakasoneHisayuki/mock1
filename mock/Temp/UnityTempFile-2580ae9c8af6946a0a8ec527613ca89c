@@ -1,0 +1,111 @@
+-debug
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-pragmas:strict,downcast
+-define:UNITY_5_0_2
+-define:UNITY_5_0
+-define:UNITY_5
+-define:ENABLE_LICENSE_RENAME
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_NEW_HIERARCHY
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_NONPRO
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:CROSS_PLATFORM_INPUT
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-i:UnityEditor
+'Assets/Cartoon Soldier/Scripts/Misc/autoDestroy.js'
+'Assets/Cartoon Soldier/Scripts/Misc/bulletHoleProperty.js'
+'Assets/Cartoon Soldier/Scripts/Misc/externalCamera.js'
+'Assets/Cartoon Soldier/Scripts/Misc/fadeParticles.js'
+'Assets/Cartoon Soldier/Scripts/Misc/flyingSpark.js'
+'Assets/Cartoon Soldier/Scripts/Misc/game.js'
+'Assets/Cartoon Soldier/Scripts/Misc/health.js'
+'Assets/Cartoon Soldier/Scripts/Misc/laserSight/laserDust.js'
+'Assets/Cartoon Soldier/Scripts/Misc/laserSight/laserLine.js'
+'Assets/Cartoon Soldier/Scripts/Misc/laserSight/laserPoint.js'
+'Assets/Cartoon Soldier/Scripts/Misc/laserSight/laserSight.js'
+'Assets/Cartoon Soldier/Scripts/Misc/particleAutoDestroy.js'
+'Assets/Cartoon Soldier/Scripts/Misc/platform.js'
+'Assets/Cartoon Soldier/Scripts/Misc/shadow.js'
+'Assets/Cartoon Soldier/Scripts/Misc/spark.js'
+'Assets/Cartoon Soldier/Scripts/Misc/triggerChildrenCollider.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletCase.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletCaseGenerator.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletHole.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletHoleHeat.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletTrace.js'
+'Assets/Cartoon Soldier/Scripts/guns/bulletTraceGenerator.js'
+'Assets/Cartoon Soldier/Scripts/guns/dustCloud.js'
+'Assets/Cartoon Soldier/Scripts/guns/dustCloudGenerator.js'
+'Assets/Cartoon Soldier/Scripts/guns/gun.js'
+'Assets/Cartoon Soldier/Scripts/guns/gunSelector.js'
+'Assets/Cartoon Soldier/Scripts/guns/muzzleFlash.js'
+'Assets/Cartoon Soldier/Scripts/guns/muzzleFlashGenerator.js'
+'Assets/Cartoon Soldier/Scripts/ik/ikArmController.js'
+'Assets/Cartoon Soldier/Scripts/ik/inverseKinematics.js'
+'Assets/Cartoon Soldier/Scripts/sentryGun/sentryGun.js'
+'Assets/Cartoon Soldier/Scripts/sentryGun/spinningTurret.js'
+'Assets/Cartoon Soldier/Scripts/soldier/crosshair.js'
+'Assets/Cartoon Soldier/Scripts/soldier/crouchController.js'
+'Assets/Cartoon Soldier/Scripts/soldier/skeletonToCharacter.js'
+'Assets/Cartoon Soldier/Scripts/soldier/smoothWorldPosition.js'
+'Assets/Cartoon Soldier/Scripts/soldier/soldierAim.js'
+'Assets/Cartoon Soldier/Scripts/soldier/soldierAnimation.js'
+'Assets/Cartoon Soldier/Scripts/soldier/soldierCamera.js'
+'Assets/Cartoon Soldier/Scripts/soldier/soldierLOD.js'
+'Assets/Cartoon Soldier/Scripts/soldier/soldierMovement.js'
+'Assets/Cartoon Soldier/Scripts/soldier/weaponController.js'
+'Assets/_CompletedAssets/SampleAssets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.js'
+'Assets/_CompletedAssets/SampleAssets/Effects/ImageEffects/Scripts/PostEffectsBase.js'
